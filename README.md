@@ -6,6 +6,7 @@ Read streams from an OLE Compound Document, e.g. StructuredStorage.
 
 ### Normal
 ```
+var oleDoc = require('ole-doc').OleCompoundDoc;
 var doc = oleDoc( 'filename.ext' );
 doc.on('err', function(err) {
   // do something with err
